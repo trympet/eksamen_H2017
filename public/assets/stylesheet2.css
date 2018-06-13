@@ -1,0 +1,98 @@
+#content{
+	margin: 30px 30px;
+	margin-top: 70px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.header {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 44px;
+	top: 0;
+}
+#parti_input{
+	margin: auto;
+	position: absolute;
+	left: 0;
+	width: 50%;
+}
+#parti_input input{
+	position: absolute;
+	right: 0;
+	width: 35%;
+
+}
+input#regnut {
+	width: 100%;
+	margin: auto;
+}
+.test:hover ~ .test2 {
+	font-weight: bold;
+
+}
+#parti_input li{
+	text-decoration: none;
+	font-size: 16px;
+	padding: 2px;
+}
+#parti_blokker{
+	position: absolute;
+	right: 0;
+	width: 50%;
+	text-align: center;
+}
+#parti_blokker .right{
+	position: absolute;
+	right: 0;
+	width: 50%;
+	text-align: center;
+	border-left-color: gray;
+	border-left-style: dotted;
+	border-left-width: 2px;
+}
+#parti_blokker .left{
+	position: absolute;
+	left: 0;
+	width: 50%;
+}
+#største_blokken{
+	text-align: center;
+	position: relative;
+	width: 100%;
+	margin-top: 100px;
+	color: gray;
+	font-weight: bold; 
+	font-size: 16px;
+}
+#rødgrønn_text{
+	margin-top: 50px;
+	position: relative;
+	display: none;
+	font-weight: bold;
+}
+#borgelig_text{
+	margin-top: 50px;
+	position: relative;
+	display: none;
+	font-weight: bold;
+}
+.hidden{
+	visibility: hidden;
+}
+#piechart{
+	left: 50%;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.footer a {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 50px
+}
